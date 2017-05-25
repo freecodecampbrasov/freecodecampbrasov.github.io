@@ -10,68 +10,143 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
-
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-98340088-1', 'auto');
-        ga('send', 'pageview');
+    ga('create', 'UA-98340088-1', 'auto');
+    ga('send', 'pageview');
     </script>
 </head>
 <body>
-<div class="container-fluid">
-    <p>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">FreeCodeCamp Brasov</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#everyday-javascript">Everyday JavaScript</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="jumbotron">
         <img src="assets/images/fcc_brasov_logo.png" class="center-block img-responsive"/>
-    </p>
-    <div class="row center-block">
-        <ul class="list-inline text-center">
-            <li>
-                <a href="https://www.facebook.com/groups/free.code.camp.brasov/" class="fb">
+        <p class="text-center">
+            Official Free Code Camp local group from Brasov, Romania.<br />
+            Learn to Code at <a href="https://www.freecodecamp.com/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> freecodecamp.com</a>
+        </p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="assets/images/fcc_brasov_campsites.jpg" class="center-block img-responsive"/>
+            </div>
+            <div class="col-sm-6">
+                <h3>about us</h3>
+                {insert about us here}
+                <div class="row center-block">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://www.facebook.com/groups/free.code.camp.brasov/" class="fb">
                                 <span class="fa-stack fa-lg fa-2x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                                 </span>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/channel/UCJjHVZAxqUrmbqxAn9lTr1A" class="youtube">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCJjHVZAxqUrmbqxAn9lTr1A" class="youtube">
                                 <span class="fa-stack fa-lg fa-2x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
                                 </span>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/freecodecampbrasov" class="github">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/freecodecampbrasov" class="github">
                                 <span class="fa-stack fa-lg fa-2x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                                 </span>
-                </a>
-            </li>
-        </ul>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-    <p class="lead text-center">
-        Official Free Code Camp local group from Brasov, Romania.
-        Learn to Code at: <a href="https://www.freecodecamp.com/">https://www.freecodecamp.com/</a>
-    </p>
-    <p>
-        <img src="assets/images/fcc_brasov_campsites.jpg" class="center-block img-responsive"/>
-    </p>
-</div>
+    <div id="everyday-javascript">
+        <div class="jumbotron mid">
+            <h1 class="text-center">Everyday Javascript</h1>
+            <p class="lead text-center">
+                <a href="https://youtu.be/8sewyfz8SmM?list=PLtc3XIDZPLkQ8ZUsstrJ0bc8PGXsP_Ban" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> youtube</a>
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="youtube-iframe-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QmnX8Mdrjeg?ecver=1" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="list-group youtube-playlist">
+                    <a href="https://youtu.be/QmnX8Mdrjeg?list=PLtc3XIDZPLkQ8ZUsstrJ0bc8PGXsP_Ban" data-youtube-id="QmnX8Mdrjeg" class="list-group-item active">
+                        <img class="pull-left yt-thumbnail" src="https://i.ytimg.com/vi/8sewyfz8SmM/hqdefault.jpg?custom=true&w=196&h=110&stc=true&jpg444=true&jpgq=90&sp=67&sigh=y5bFzl0bOTukVI6xUSKJcrbmtyU" alt="Everyday JavaScript 1/10">
+                        Everyday JavaScript 5/10
+                        <div class="clearfix"></div>
+                    </a>
+                    <a href="https://youtu.be/IxxLKeo6k4E?list=PLtc3XIDZPLkQ8ZUsstrJ0bc8PGXsP_Ban" data-youtube-id="IxxLKeo6k4E" class="list-group-item">
+                        <img class="pull-left yt-thumbnail" src="https://i.ytimg.com/vi/8sewyfz8SmM/hqdefault.jpg?custom=true&w=196&h=110&stc=true&jpg444=true&jpgq=90&sp=67&sigh=y5bFzl0bOTukVI6xUSKJcrbmtyU" alt="Everyday JavaScript 1/10">
+                        Everyday JavaScript 4/10
+                        <div class="clearfix"></div>
+                    </a>
+                    <a href="https://youtu.be/9CO78dgxLO8?list=PLtc3XIDZPLkQ8ZUsstrJ0bc8PGXsP_Ban" data-youtube-id="9CO78dgxLO8" class="list-group-item">
+                        <img class="pull-left yt-thumbnail" src="https://i.ytimg.com/vi/8sewyfz8SmM/hqdefault.jpg?custom=true&w=196&h=110&stc=true&jpg444=true&jpgq=90&sp=67&sigh=y5bFzl0bOTukVI6xUSKJcrbmtyU" alt="Everyday JavaScript 1/10">
+                        Everyday JavaScript 3/10
+                        <div class="clearfix"></div>
+                    </a>
+                    <a href="https://youtu.be/sgNBh0W7YgM?list=PLtc3XIDZPLkQ8ZUsstrJ0bc8PGXsP_Ban" data-youtube-id="sgNBh0W7YgM" class="list-group-item">
+                        <img class="pull-left yt-thumbnail" src="https://i.ytimg.com/vi/8sewyfz8SmM/hqdefault.jpg?custom=true&w=196&h=110&stc=true&jpg444=true&jpgq=90&sp=67&sigh=y5bFzl0bOTukVI6xUSKJcrbmtyU" alt="Everyday JavaScript 1/10">
+                        Everyday JavaScript 2/10
+                        <div class="clearfix"></div>
+                    </a>
+                    <a href="https://youtu.be/8sewyfz8SmM?list=PLtc3XIDZPLkQ8ZUsstrJ0bc8PGXsP_Ban" data-youtube-id="8sewyfz8SmM" class="list-group-item">
+                        <img class="pull-left yt-thumbnail" src="https://i.ytimg.com/vi/8sewyfz8SmM/hqdefault.jpg?custom=true&w=196&h=110&stc=true&jpg444=true&jpgq=90&sp=67&sigh=y5bFzl0bOTukVI6xUSKJcrbmtyU" alt="Everyday JavaScript 1/10">
+                        Everyday JavaScript 1/10
+                        <div class="clearfix"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/youtube.js"></script>
 </body>
 </html>

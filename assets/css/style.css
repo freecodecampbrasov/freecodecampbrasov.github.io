@@ -13,3 +13,19 @@ a.youtube {
 a.github {
     color: #24292e;
 }
+
+.jumbotron{
+    background: #006400;
+    color: #fff
+}
+.jumbotron a{
+    color: #fff;
+    text-decoration: underline;
+}
+.jumbotron.mid{
+    margin-top: 30px;
+}
+.yt-thumbnail{
+    width: 80px;
+    margin-right: 10px;
+}
