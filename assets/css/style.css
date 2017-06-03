@@ -22,14 +22,21 @@ a.github {
     background: #006400;
     color: #fff
 }
+
 .jumbotron a{
     color: #fff;
     text-decoration: underline;
 }
+
 .jumbotron.mid{
     margin-top: 30px;
 }
+
 .yt-thumbnail{
     width: 80px;
     margin-right: 10px;
+}
+
+.fa-stack:hover {
+    opacity: 0.7;
 }
